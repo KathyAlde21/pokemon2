@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="js/script.js" type="text/javascript">
+            $(function (){
+                $("#show").click(function(){
+                    $("img").show("slow");
+                });
+            });
+        </script>    
+
+    </head>
+
+    <body>
+        <h1>Pokemon Shini</h1>
+        <div class="container border">
+        <!-- add http:// before the website name -->
+            <img src="img/Screen_Shot_2020-03-06_at_3.08.19_PM.png" alt="Pkm" width="240px" height="auto" class="img-fluid">
+            <img src="img/Screen_Shot_2020-03-06_at_3.08.31_PM.png" alt="Pkm" width="240px" height="auto" class="img-fluid">
+            <img src="img/Screen_Shot_2020-03-06_at_3.08.53_PM.png" alt="Pkm" width="240px" height="auto" class="img-fluid">
+            <img src="img/Screen_Shot_2020-03-06_at_3.09.05_PM.png" alt="Pkm" width="240px" height="auto" class="img-fluid">
+            <img src="img/Screen_Shot_2020-03-06_at_3.09.26_PM.png" alt="Pkm" width="240px" height="auto" class="img-fluid">
+        </div>
+        <div id="Pokemon">
+            <button id="show">Aparecer Pokemon</button>
+        </div>
+
+    </body>
+</html>
